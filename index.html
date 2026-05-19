@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Orlovska - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <!-- Profile Section -->
+            <section class="section" id="profile">
+                <div class="profile-wrapper">
+                    <div class="profile-photo">
+                        <img src="photo.jpg" alt="Maria Orlovska" class="avatar">
+                    </div>
+                    <h1 class="section-title">Maria Orlovska</h1>
+                    <p class="profile-subtitle">Junior Frontend Developer</p>
+                </div>
+            </section>
+
+            <!-- Contacts Section -->
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">📞 +38 097 1234567</li>
+                    <li class="contacts-item">✉️ maria.orlovska@gmail.com</li>
+                    <li class="contacts-item">💬 Telegram: @maria_orlovska</li>
+                    <li class="contacts-item">💼 LinkedIn: linkedin.com/in/maria-orlovska</li>
+                    <li class="contacts-item">💻 GitHub: github.com/mariaorlovska</li>
+                </ul>
+            </section>
+
+            <!-- About Me Section -->
+            <section class="section" id="summary">
+                <h2 class="section-title">About Me</h2>
+                <div class="summary-content">
+                    <p>I am a proactive and motivated Junior Frontend Developer with a passion for creating beautiful and functional web interfaces. My background in design helps me understand user needs and implement intuitive solutions.</p>
+                    <p>I started my journey in IT by learning HTML, CSS, and JavaScript through online courses and personal projects. I constantly strive to improve my skills and stay updated with the latest web technologies.</p>
+                    <p>I am looking for an opportunity to work in a team of professionals where I can contribute my knowledge and grow as a developer. My goal is to become a full-stack developer in the future and create products that make people's lives better.</p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section" id="skills">
+                <h2 class="section-title">Technical Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML5, CSS3, Flexbox, Grid</li>
+                    <li class="skills-item">JavaScript (ES6+) - Basics</li>
+                    <li class="skills-item">Git, GitHub, Git Flow</li>
+                    <li class="skills-item">VS Code, Figma</li>
+                    <li class="skills-item">Responsive Design, Adaptive Layout</li>
+                    <li class="skills-item">Basic knowledge of React</li>
+                </ul>
+            </section>
+
+            <!-- Code Example Section -->
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <div class="code-block">
+                    <p class="code-description"><strong>FizzBuzz</strong> - classic task:</p>
+                    <p class="code-task">Write a program that prints numbers from 1 to 100. For multiples of 3 print "Fizz" instead of the number, for multiples of 5 print "Buzz", for multiples of both print "FizzBuzz".</p>
+                    <pre class="code-pre">
+function fizzBuzz() {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(i);
+        }
+    }
+}
+fizzBuzz();
+                    </pre>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="section" id="experience">
+                <h2 class="section-title">Work Experience</h2>
+                
+                <div class="experience-item">
+                    <h3>Freelance Frontend Developer</h3>
+                    <p class="experience-place">Self-employed | 2024 - Present</p>
+                    <ul class="experience-list">
+                        <li>Developed responsive landing pages for small businesses</li>
+                        <li>Created website layouts based on Figma designs</li>
+                        <li>Optimized website performance and SEO</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Intern Frontend Developer</h3>
+                    <p class="experience-place">IT School "WebLab" | 2023 - 2024</p>
+                    <ul class="experience-list">
+                        <li>Assisted in developing interactive web applications</li>
+                        <li>Fixed bugs and improved user interface</li>
+                        <li>Worked in a team using Git version control</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Graphic Designer (part-time)</h3>
+                    <p class="experience-place">Creative Agency "ArtLine" | 2021 - 2023</p>
+                    <ul class="experience-list">
+                        <li>Created visual content for social media</li>
+                        <li>Developed logos and brand identity</li>
+                        <li>Collaborated with clients to understand their needs</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section" id="education">
+                <h2 class="section-title">Education & Courses</h2>
+                <ul class="education-list">
+                    <li class="education-item">🎓 Frontend Development Course - IT School "WebLab" <span class="status completed">(Completed)</span></li>
+                    <li class="education-item">📚 JavaScript Fundamentals - learnjavascript.ru <span class="status completed">(Completed)</span></li>
+                    <li class="education-item">💻 React Basics - RS Schools Course <span class="status in-progress">(In Progress)</span></li>
+                    <li class="education-item">🎨 Bachelor's Degree in Graphic Design - Kyiv National University <span class="status completed">(Completed)</span></li>
+                </ul>
+            </section>
+
+            <!-- Languages Section -->
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">🇬🇧 English - Upper-Intermediate (B2)</li>
+                    <li class="languages-item">🇺🇦 Ukrainian - Native</li>
+                    <li class="languages-item">🇵🇱 Polish - Intermediate (A2/B1)</li>
+                </ul>
+                <div class="certificate-link">
+                    <p>English Certificate: <a href="https://www.efset.org" target="_blank">EFSET - 72/100 (B2)</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Maria Orlovska | Last updated: May 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
